@@ -29,7 +29,6 @@ function displayQuestion() {
         getAnswer.appendChild(button2);
         
     }
- devansh_branch
     else if (currentState == "Q1-Correct") {
         getQuestion.textContent = "Is the Red River College best college in the world?";
         const button1 = document.createElement("button");
@@ -48,18 +47,11 @@ function displayQuestion() {
         })
         getAnswer.appendChild(button2);
     }
-
-
-master
+    // If the question is wrong, restart
     else if (currentState == "Incorrect"){
         getQuestion.textContent = "You got the question wrong. Time to restart!";
         currentState = "beginning";
     }
- devansh_branch
-       
-
-        
- master
 }
 
 function nextQuestion(){
