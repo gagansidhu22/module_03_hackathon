@@ -21,7 +21,7 @@ function displayQuestion() {
         getAnswer.appendChild(button1);
 
         const button2 = document.createElement("button");
-        button2.textContent = "Yes";
+        button2.textContent = "No";
         button2.addEventListener("click", () => {
             currentState = "Incorrect";
             console.log(currentState);
@@ -29,6 +29,12 @@ function displayQuestion() {
         getAnswer.appendChild(button2);
         
     }
+    // if any of the questions are answered wrong, restart quiz:
+    else if (currentState == "Incorrect"){
+        getQuestion.textContent = "You got the question wrong. Time to restart!";
+        currentState = "beginning";
+    }
+        
 }
 
 function nextQuestion(){
