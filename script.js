@@ -29,7 +29,6 @@ function displayQuestion() {
         getAnswer.appendChild(button2);
         
     }
-    // if any of the questions are answered wrong, restart quiz:
     else if (currentState == "Incorrect"){
         getQuestion.textContent = "You got the question wrong. Time to restart!";
         currentState = "beginning";
