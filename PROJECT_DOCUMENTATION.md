@@ -2,24 +2,24 @@
 
 ## Project Overview
 
-[Provide a brief summary of the project, including the theme and objectives.]
+In this project we are going to make game as quiz that will provide the feedback.
 
 ## Team Members:
 
--   Name 1
--   Name 2
--   Name 3
+-   Gagandeep Kaur
+-   Devansh Garg
+-   Rogine Mirando
 
 ## Member Contributions:
 
 ### Name 1:
 
--   Worked on [specific elements] of the webpage.
+-   Worked on css and main content Question answer part.
 
 ### Name 2:
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-   Was responsible for making question of quiz using java script.
 
 ### Name 3:
 
--   Handled [specific sections], covering [specific topics or features].
+-   Handled functions in java script.
