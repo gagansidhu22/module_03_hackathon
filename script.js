@@ -47,6 +47,7 @@ function displayQuestion() {
         })
         getAnswer.appendChild(button2);
     }
+
     else if (currentState == "Q2-Correct"){
         getQuestion.textContent = "Is Winnipeg a province?";
         const button1 = document.createElement("button");
@@ -65,13 +66,19 @@ function displayQuestion() {
         })
         getAnswer.appendChild(button2);
     }
+
+    // If the question is wrong, restart
+
     else if (currentState == "Incorrect"){
         getQuestion.textContent = "You got the question wrong. Time to restart!";
         currentState = "beginning";
     }
+
     else if (currentState == "Finish"){
         getQuestion.textContent = "Congartulations you answered all the answers correct!";
     }
+
+
 }
 
 function nextQuestion(){
