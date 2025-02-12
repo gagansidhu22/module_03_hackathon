@@ -29,6 +29,7 @@ function displayQuestion() {
         getAnswer.appendChild(button2);
 
     }
+ devansh_branch
     else if (currentState == "Q1-Correct") {
         getQuestion.textContent = "Is the Red River College best college in the world?";
         const button1 = document.createElement("button");
@@ -72,6 +73,11 @@ function displayQuestion() {
     else if (currentState == "Finish"){
         getQuestion.textContent = "Congartulations you answered all the answers correct!";
     }
+ devansh_branch
+       
+
+        
+ master
 }
 
 function nextQuestion(){
